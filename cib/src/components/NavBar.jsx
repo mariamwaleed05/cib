@@ -7,7 +7,9 @@ const NavBar = () => {
 
             <header className="header-container">
       <div className="header-content">
-        <img src={CibLogo} alt="CIB Logo" className="cib-logo" />        <nav className="main-nav">
+        <img src={CibLogo} alt="CIB Logo" className="cib-logo" />        
+    
+        <nav className="main-nav">
           <ul className="nav-list">
             <li className="nav-item active">About Us</li>
             <li className="nav-item">Investor Relations</li>

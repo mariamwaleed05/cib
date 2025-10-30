@@ -4,7 +4,7 @@ import './Button.css';
 const Button = () => {
     return ( 
 
-        <p>h</p>
+        <h1>g</h1>
      );
 }
  

@@ -1,0 +1,20 @@
+.hero {
+    width: 100%;
+}
+.name {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.title {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+font-size: 5rem;
+color: white;
+}
+.subtitle {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+font-size: 2rem;
+color: white;   
+font-weight: 400;
+width: 60%; 
+}
