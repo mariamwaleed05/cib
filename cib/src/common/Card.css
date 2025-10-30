@@ -1,0 +1,10 @@
+.card1 {
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+    background-color: rgba(225, 225, 225, 0.909);
+}
+h2 {
+    color: #002791;
+}
