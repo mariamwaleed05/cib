@@ -18,17 +18,14 @@ const Home = () => {
         <>
 <NavBar/>
 <Header/>
-<Button title="Discover More" />
-
-<Footer/>
-<Button/>
-<Card/>
 <MainMenuTap/>
+<Card/>
 <SmallMenuTap/>
 <SubTitle/>
 <NewsCard/>
 <SectionTitle/>
 <CenterCard/>
+<Footer/>
 <FooterLink/>
         </>
      );

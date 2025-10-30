@@ -2,9 +2,9 @@
     width: 100%;
 }
 .name {
-    position: absolute;
     margin-left: 15%;
     margin-top: 5%;
+    position: absolute;
 }
 .title {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
