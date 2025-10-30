@@ -21,11 +21,16 @@ const Home = () => {
 <MainMenuTap/>
 <SubTitle/>
 <SectionTitle/>
-
 <Card/>
+
+<SectionTitle title="Learning Center" />
+<SubTitle title="Learn more about banking and your finances" />
+<CenterCard/>
+<Button title="View More" className="secondary" />
+
+
 <SmallMenuTap/>
 <NewsCard/>
-<CenterCard/>
 <Footer/>
 <FooterLink/>
         </>

@@ -22,11 +22,10 @@ const Card = () => {
                 <h2>Apply for loan or overdraft</h2>
             </div>
         </div>
+    
         
-        
-        
-        
-        </>
+    
+    </>
      );
 }
  

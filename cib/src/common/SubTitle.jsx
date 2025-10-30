@@ -3,7 +3,9 @@ import './SubTitle.css';
 
 const SubTitle = ({ title = "APPLY NOW" }) => {
     return ( 
+        <>
         <h2 className='bb'>{title}</h2>
+</>
      );
 }
  
