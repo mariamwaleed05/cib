@@ -27,14 +27,13 @@ const Home = () => {
 <SubTitle title="Learn more about banking and your finances" />
 <CenterCard/>
 <Button title="View More" className="secondary" />
-
 <SectionTitle title="News"/>
 <NewsCard/>
 <NewsCard/>
 <NewsCard/>
 <Button title="View All News" className="secondary" />
-
 <SmallMenuTap/>
+
 <Footer/>
 <FooterLink/>
         </>
