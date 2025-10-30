@@ -28,9 +28,13 @@ const Home = () => {
 <CenterCard/>
 <Button title="View More" className="secondary" />
 
+<SectionTitle title="News"/>
+<NewsCard/>
+<NewsCard/>
+<NewsCard/>
+<Button title="View All News" className="secondary" />
 
 <SmallMenuTap/>
-<NewsCard/>
 <Footer/>
 <FooterLink/>
         </>
