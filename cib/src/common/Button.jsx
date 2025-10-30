@@ -4,8 +4,7 @@ import './Button.css';
 const Button = () => {
     return ( 
 
-        <h1>g</h1>
-     );
+<button className='b'>{props.title}</button>     );
 }
  
 export default Button ;

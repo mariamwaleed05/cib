@@ -9,7 +9,7 @@ const Header = () => {
         <h1 className='title'>CIB</h1>
         <p className='subtitle'>Delivering value to our
         clients, our community and our shareholders</p>
-        <button>Discover More</button>
+<button className='b'>{props.title}</button>     );
 
     </div>
 
