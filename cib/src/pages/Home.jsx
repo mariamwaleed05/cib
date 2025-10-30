@@ -19,11 +19,12 @@ const Home = () => {
 <NavBar/>
 <Header/>
 <MainMenuTap/>
+<SubTitle/>
+<SectionTitle/>
+
 <Card/>
 <SmallMenuTap/>
-<SubTitle/>
 <NewsCard/>
-<SectionTitle/>
 <CenterCard/>
 <Footer/>
 <FooterLink/>

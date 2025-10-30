@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import './SectionTitle.css';
 
-const SectionTitle = () => {
+const SectionTitle = ({ title = "Apply Online now for cards & loans with ease!" }) => {
     return ( 
-
-        <p>h</p>
+        <h2 className='bjb'>{title}</h2>
      );
 }
  

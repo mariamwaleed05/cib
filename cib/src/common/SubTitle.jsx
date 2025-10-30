@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import './SubTitle.css';
 
-const SubTitle = () => {
+const SubTitle = ({ title = "APPLY NOW" }) => {
     return ( 
-
-        <p>h</p>
+        <h2 className='bb'>{title}</h2>
      );
 }
  
