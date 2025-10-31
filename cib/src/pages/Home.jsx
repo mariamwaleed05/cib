@@ -23,6 +23,10 @@ import icon2 from '../assets/icon2.png';
 import icon3 from '../assets/icon3.png'; 
 import icon4 from '../assets/icon4.png'; 
 
+import icon5 from '../assets/icon5.png'; 
+import icon6 from '../assets/icon6.png'; 
+import icon7 from '../assets/icon7.png'; 
+
 const Home = () => {
     return ( 
         <>
@@ -104,7 +108,6 @@ const Home = () => {
         altText="Best Mergers & Acqusation Deal in MENA" 
         headingText="Best Mergers & Acqusation Deal in MENA" 
         subText="EMEA Finance - 2023"
-
       />
       <Card 
         className="flex2"
@@ -119,6 +122,27 @@ const Home = () => {
 
 <SubTitle title="WE CARE" />
 <SectionTitle title="Our dedicated team is committed to meeting your needs" />
+<div className='flex22'>
+      <Card 
+        className="card11"
+        imageSrc={icon5}   
+        subTitle="Online"    
+        headingText="Chat with 'Zaki' our digital assistant to guide you through our products and services, or reach out on social media " 
+      />
+      <Card 
+        className="card11"
+        imageSrc={icon6}  
+        subTitle="On The Phone"    
+        headingText="For support, including emergencies such as cards closure or immediate critical feedback." 
+      />
+      <Card 
+        className="card11"
+        imageSrc={icon7}
+        subTitle="In Branch"    
+        headingText="Our trained team of tellers and relationship managers are here to help you get the service you need." 
+      />
+</div>
+
 
 <Footer/>
 <FooterLink/>

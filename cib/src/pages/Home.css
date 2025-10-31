@@ -2,3 +2,26 @@
   display: flex;
   flex-direction: column;
 }
+.card11 {
+  background-color: aliceblue;
+  width: 20%;
+}
+.flex22 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+ h2{
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+h3 {
+  font-size: 18x;
+  color: gray;
+    font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
