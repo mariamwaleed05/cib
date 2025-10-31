@@ -3,8 +3,10 @@ import './FooterLink.css';
 
 const FooterLink = () => {
     return ( 
+<div className='footerr'>
 
-        <p>h</p>
+    <p className='ss'>Copyright @ 2025 Commercial International Bank</p>
+    </div>
      );
 }
  

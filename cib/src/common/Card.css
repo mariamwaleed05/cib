@@ -10,7 +10,10 @@
      margin-top: 5%;
   margin-bottom: 5%;
 }
-h2 {
+p {
+      color: #002791;
+}
+h3 {
     color: #002791;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 
@@ -40,7 +43,6 @@ h2 {
   margin: 0 0 10px 0;
   font-size: 1.2em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-
 }
 .card-description {
   font-size: 0.9em;
@@ -63,7 +65,6 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .img {
   width: auto;

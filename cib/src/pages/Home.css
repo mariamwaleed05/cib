@@ -3,7 +3,6 @@
   flex-direction: column;
 }
 .card11 {
-  background-color: aliceblue;
   width: 20%;
 }
 .flex22 {
@@ -11,7 +10,8 @@
   justify-content: center;
   align-items: center;
   gap:2%;
-  margin-left: 5%;
+color: #084cca; 
+ margin-left: 5%;
   margin-right: 5%;
 }
  h2{

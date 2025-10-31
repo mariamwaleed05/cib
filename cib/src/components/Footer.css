@@ -1,13 +1,17 @@
 .g {
-    background-color: rgb(2, 2, 128);
+    background-color:#1D3766;
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 10%;
+}
+h2 {
+    font-weight: 700;
 }
 p {
-    font-weight: 500;
-    color: azure;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
 .flex {
@@ -22,9 +26,20 @@ p {
     gap: 2%;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: rgb(27, 27, 171);
+    background-color: #1D3766;
 }
 .imgg {
     width: auto;
     height: auto;
+}
+.line {
+    height: 1px;
+    background-color: rgba(199, 199, 199, 0.064);
+    width: 20%;
+}
+.section1 p {
+    color: azure;
+}
+.flexg p {
+    color: azure;
 }
