@@ -1,0 +1,30 @@
+.g {
+    background-color: rgb(2, 2, 128);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p {
+    font-weight: 500;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+.flexg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(27, 27, 171);
+}
+.imgg {
+    width: auto;
+    height: auto;
+}
