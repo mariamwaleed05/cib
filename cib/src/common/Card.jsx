@@ -2,31 +2,18 @@ import React, { Component } from 'react';
 import './Card.css';
 import Icon from '../assets/icon.png'; 
 
-const Card = () => {
+const Card = (props) => {
+      const { imageSrc, altText, headingText, className, subText} = props; 
     return ( 
 
         <>
-        <div className='flex'>
-            <div className='card1'>
-                <img src={Icon} alt="CIB Logo" className="cib-logo" />        
-                <h2>Apply for a new account</h2>
-            </div>
-
-              <div className='card1'>
-                <img src={Icon} alt="CIB Logo" className="cib-logo" />        
-                <h2>Apply for a card</h2>
-            </div>
-
-              <div className='card1'>
-                <img src={Icon} alt="CIB Logo" className="cib-logo" />        
-                <h2>Apply for loan or overdraft</h2>
-            </div>
-        </div>
-    
-        
-    
-    </>
-     );
-}
+    <div className={className}> 
+      <img src={imageSrc} alt={altText} className="img" />
+      <h2>{headingText}</h2>
+      <p>{subText}</p>
+    </div>
+     </>
+  );
+};
  
 export default Card ;
